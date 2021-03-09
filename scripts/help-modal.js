@@ -42,7 +42,7 @@ function addModal(){
             to remove in the top right menu, and then click the cell where it's 
             currently placed.
             <br><br>
-            Now click 'go' in the top right hand corner and watch Pathfinder
+            Once you've placed your nodes, click 'go' in the top right hand corner and watch Pathfinder
             find a path between the two nodes. When you want to give Pathfinder
             a new challenge, click 'Clear' in the menu on the top right.
             <br><br>
