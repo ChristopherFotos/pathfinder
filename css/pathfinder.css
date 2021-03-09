@@ -1,0 +1,83 @@
+body {
+    background-color: #222222;
+}
+
+.control-panel {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 999999;
+}
+
+.control {
+    border-radius: 999999px;
+    background-color: #ffffffa1;
+    font-family: Roboto;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 0.6rem;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#help {
+    position: fixed;
+    z-index: 99999991;
+}
+
+.control:hover{
+    transition: transform 0.2s;
+    transform: scale(1.15);
+}
+
+.active {
+    transform: scale(1.15);
+    border: 1px solid red;
+    color: white;
+    background-color: black;
+}
+
+#modal {
+    width: 800px;
+    z-index: 999999;
+    height: 60vh;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    overflow-y: scroll;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff63;
+
+    padding: 16px;
+}
+
+.help-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #222222;
+    border-bottom: 2px solid #222222
+}
+
+.help-text {
+    font-family: Montserrat;
+}
+
+.exit-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 12px;
+    z-index: 9999999999;
+}
+
+#exit{
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 999999px;
+    cursor: pointer;
+    font-family: Roboto;
+    font-weight: bold;
+
+}

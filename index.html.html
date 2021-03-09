@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/pathfinder.css">
+    <title>p a t h f i n d e r</title>
+
+</head>
+
+<body>
+
+    
+    
+    <button class="control" id='help' data-control='help'>Help</button>
+
+    <div class="control-panel">
+        <button class="control active" id='start' data-control='start' >
+            Start node
+        </button>
+        
+        <button class="control" id = 'end' data-control='end'>
+            End node
+        </button>
+
+        <button class="control" data-control='obstacle'>
+            Obstacle    
+        </button>
+    
+        <button class="control" data-control='bigObstacle'>
+            Large Obstacle
+        </button>
+        
+        <button class="control" data-control='clear'>
+            Clear
+        </button>
+
+        <button class="control go" data-control='go'>
+            Go!
+        </button>
+
+
+    </div>
+</body>
+
+
+<script src="girdGraph/Cell.js"></script>
+<script src="girdGraph/Column.js"></script>
+<script src="girdGraph/Board.js"></script>
+<script src="scripts/a-star.js"></script>
+<script src="scripts/help-modal.js"></script>
+<script src="scripts/pathfinding.js"></script>
+
+
+</html>

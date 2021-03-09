@@ -1,0 +1,47 @@
+body {
+    background-color: #101010;
+}
+
+
+.cell {
+    transition: all 0.1s ease-in-out;
+    background-color: #101010;
+    box-shadow: inset 0px 0px 1px 0px rgba(175,187,242,0.3);
+    /* border-radius: 100%; */
+    /* border: 1px solid #191919; */
+}
+
+.a {
+    background-color: #D3FFF3;
+    /* transition: all 0.8s ease-in-out; */
+    box-shadow: 3px 0px 40px 0px rgba(211,255,243,1);
+    z-index: 10;
+}
+
+
+
+.cell:hover {
+    box-shadow: inset 0px 0px 7px 0px rgba(100, 100, 255, 0.5);
+    z-index: 10;
+    transition: all 0.1s;
+}
+
+.start {
+    background-color: aliceblue;
+    box-shadow: inset 0px 0px 15px 0px rgba(228, 6, 35, 0.822), 0px 0px 60px 10px rgba(228, 6, 35, 0.822);
+    z-index: 10
+}
+
+.end {
+    background-color: aliceblue;
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 38, 255, 0.87), 0px 0px 7px 0px rgba(0, 38, 255, 0.87);
+}
+
+.obstacle {
+    background-color: rgb(25, 255, 64);
+    box-shadow: 0px 0px 7px 0px rgba(100, 100, 255, 0.5);
+}
+
+
+
+
