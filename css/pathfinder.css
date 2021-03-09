@@ -79,5 +79,8 @@ body {
     cursor: pointer;
     font-family: Roboto;
     font-weight: bold;
+}
 
+#exit:hover{
+    
 }
